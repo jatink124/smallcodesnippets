@@ -1,0 +1,30 @@
+body{
+    background-color:black;
+  }
+  .basediv{
+    background-color:white;
+    width:550px;
+    height:160px;
+    margin:40px 360px ;
+  }
+  
+  
+  table {
+   border: 3px solid black;
+    border-collapse: collapse;
+    width: 530px;
+    height:140px;
+    margin:10px 10px;
+    position:absolute;
+  }
+  #heading{
+   text-align: right;
+    font-size:25px;
+   }
+  #firstcol{border: 2px solid black;text-align:center;width:160px;}
+  #seccol{border: 2px solid black;text-align:center;}
+  #thirdcol{border: 2px solid black;
+  background-color:black;color:white;text-align:center; transition: 1.2s;}
+  #thirdcol:hover{border: 2px solid black;
+  background-color:white;color:black;}
+  
